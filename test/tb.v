@@ -1,8 +1,10 @@
 `default_nettype none
 `timescale 1ns / 1ps
 
-/* This testbench just instantiates the module and makes some convenient wires
-   that can be driven / tested by the cocotb test.py.
+/* 
+ * FIFO Testbench wrapper for integration with Tiny Tapeout style test
+ * Instantiates the FIFO design and wires the IO signals accordingly.
+ * Allows for external control via ui_in/uio and observation via uo_out/uio_out.
 */
 module tb ();
 
