@@ -26,7 +26,7 @@ pinout:
   ui[0]: "WR"
   ui[1]: "RD"
   ui[2]: "dataIn0"
-  ui[3]: "dataIn1
+  ui[3]: "dataIn1"
   ui[4]: "dataIn2"
   ui[5]: "dataIn3"
   ui[6]: "dataIn4"
